@@ -1,4 +1,4 @@
-# YingLong# YingLong
+# YingLong
 
 YingLong model is introduced in this [paper](xxxxxxxx) (coming soon). This version is pre-trained on 78B time points. We provide 4 differnet sizes ([6m](https://huggingface.co/qcw2333/YingLong_6m), [50m](https://huggingface.co/qcw2333/YingLong_50m), [110m](https://huggingface.co/qcw2333/YingLong_110m) and [300m](https://huggingface.co/qcw2333/YingLong_300m)).
 
