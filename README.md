@@ -5,7 +5,7 @@ YingLong model is introduced in this [paper](xxxxxxxx) (coming soon). This versi
  
 ## Quickstart
 
-```
+```bash
 pip install xformers transformers
 pip install flash-attn --no-build-isolation
 git clone https://github.com/Dao-AILab/flash-attention && cd flash-attention
@@ -15,7 +15,7 @@ cd ../layer_norm && pip install .
 The flash attention is not required. If you use V100 or other GPU doesn't support flash attention, just change the FlashAttention2Available = RequirementCache("flash-attn>=2.0.0.post1") to
 FlashAttention2Available = False in the model.py file. It should be able to run. 
 
-```
+```python
 import torch
 from transformers import AutoModelForCausalLM
 
@@ -38,7 +38,7 @@ A notebook example is also provided [here](xxxxxxx). Try it out!
 
 In order to replicate the long-term forecasting results in the paper, please run
 
-```
+```bash
 pip install -r Long_Term_Forecasting/requirement.txt
 
 fabric run \
