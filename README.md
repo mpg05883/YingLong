@@ -33,7 +33,7 @@ output = model.generate(seqs, future_token=prediction_length)
 print(output.shape)
 ```
 
-A notebook example is also provided [here](xxxxxxx). Try it out!
+A notebook example is also provided [here](https://github.com/wxie9/YingLong/blob/main/quickstart_zero_shot.ipynb). Try it out!
 
 
 In order to replicate the long-term forecasting results in the paper, please run
