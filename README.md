@@ -75,7 +75,7 @@ If you have any questions or want to use the code, feel free to contact:
 
 Xue Wang (xue.w@alibaba-inc.com)
 
-Tian Zhou (an.zt@alibaba-inc.com)
+Tian Zhou (tian.zt@alibaba-inc.com)
 
  
 ## License
